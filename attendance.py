@@ -111,7 +111,8 @@ def process_file(file_path):
 root = tk.Tk()
 
 root.title("TDH Attendance System")
-root.geometry("1000x500")
+# root.geometry("1400x720")
+root.state('zoomed')
 
 # Buttons
 btn_frame = tk.Frame(root)
