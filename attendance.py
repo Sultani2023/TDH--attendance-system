@@ -26,7 +26,7 @@ def show_splash(root):
     splash.configure(bg="white")
 
     # Splash image
-    img = Image.open(r"images\WhatsApp Image 2025-09-21 at 23.35.49_3f1ee5a6.jpg").resize((350, 140))
+    img = Image.open(r"images\WhatsApp Image 2025-09-21 at 23.35.49_3f1ee5a6.jpg").resize((300, 140))
     logo = ImageTk.PhotoImage(img)
     tk.Label(splash, image=logo, bg="white").pack(pady=15)
     splash.logo = logo
@@ -34,7 +34,7 @@ def show_splash(root):
     # Splash title
     tk.Label(
         splash,
-        text=" Welcome To The TDH Attendance System",
+        text="Welcome to TDH Attendance System",
         font=("Segoe UI", 18, "bold"),
         bg="white",
         fg=PRIMARY_COLOR
